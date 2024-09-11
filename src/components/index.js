@@ -1,0 +1,1 @@
+export { TabsComp } from './tabs';

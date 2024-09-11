@@ -1,0 +1,37 @@
+.wrapper {
+  padding: 0.8rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.tab-item {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #51dcf7;
+}
+
+.active {
+  border-color: #000;
+  background-color: rgb(128, 236, 82);
+}
+
+.label {
+}
+
+.content {
+  padding: 2rem 10rem;
+  height: 300px;
+  overflow: auto;
+  background-color: #fff;
+  font-size: 1.5rem;
+}

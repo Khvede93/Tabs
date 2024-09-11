@@ -4,22 +4,18 @@ import { Tabs } from './Tabs';
 export const TabsComp = () => {
   const tabs = [
     {
-      label: 'tab 1',
+      label: 'Tab 1',
       content: <div>this is Tab1 content</div>,
     },
     {
-      label: 'tab 2',
-      content: <div>this is Tab2 content</div>,
+      label: 'Tab 2',
+      content: <h1>this is Tab2 content</h1>,
     },
     {
-      label: 'tab 3',
+      label: 'Tab 3',
       content: <div>this is Tab3 content</div>,
     },
   ];
 
-  function handleChange(getCurrentTabInd) {
-    console.log(getCurrentTabInd);
-  }
-
-  return <Tabs tabsContent={tabs} onChange={handleChange} />;
+  return <Tabs tabsContent={tabs} />;
 };

@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import './tabs.css';
 
-export const Tabs = ({ tabsContent, onChange }) => {
+export const Tabs = ({ tabsContent }) => {
   const [currentTabInd, setCurrentTabInd] = useState(0);
 
   function handleOnClick(getIndex) {
     setCurrentTabInd(getIndex);
-    onChange(getIndex);
   }
 
   return (
